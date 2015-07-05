@@ -15,6 +15,7 @@
 		8F6796031B4901E000944A48 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6796021B4901E000944A48 /* __Tests.m */; };
 		8F6796101B4907F800944A48 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F67960F1B4907F800944A48 /* News.storyboard */; };
 		8F6796131B49080900944A48 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6796121B49080900944A48 /* NewsTableViewController.m */; };
+		8F6796161B491BDB00944A48 /* NetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6796151B491BDB00944A48 /* NetworkTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		8F67960F1B4907F800944A48 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
 		8F6796111B49080900944A48 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
 		8F6796121B49080900944A48 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
+		8F6796141B491BDB00944A48 /* NetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTools.h; sourceTree = "<group>"; };
+		8F6796151B491BDB00944A48 /* NetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTools.m; sourceTree = "<group>"; };
 		B892C0DDC03B28B39D71AAE3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05A0696C6E9A4BA418A8D18 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EE62A63930C2839BDD484F9C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 		8F67960E1B4907E400944A48 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				8F6796141B491BDB00944A48 /* NetworkTools.h */,
+				8F6796151B491BDB00944A48 /* NetworkTools.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F6796161B491BDB00944A48 /* NetworkTools.m in Sources */,
 				8F6796131B49080900944A48 /* NewsTableViewController.m in Sources */,
 				8F6795EC1B4901E000944A48 /* AppDelegate.m in Sources */,
 				8F6795E91B4901E000944A48 /* main.m in Sources */,
